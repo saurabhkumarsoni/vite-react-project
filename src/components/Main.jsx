@@ -7,7 +7,7 @@ import {
   BsGithub,
 } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
-import mainImg from '../assets/main.jpg'
+import mainImg from "../assets/main.jpg";
 
 const Main = () => {
   return (
@@ -56,21 +56,43 @@ const Main = () => {
               <BsFacebook size={20} className="cursor-pointer" />
             </a>
             <a
-            href="https://github.com/saurabhkumarsoni"
+              href="https://github.com/saurabhkumarsoni"
               target="_blank"
               rel="noopener noreferrer"
             >
               <BsGithub size={20} className="cursor-pointer" />
             </a>
             <a
-            href="https://www.linkedin.com/in/saurabh24692/"
+              href="https://www.linkedin.com/in/saurabh24692/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <BsLinkedin size={20} className="cursor-pointer" />
             </a>
-            
+
             <BsTwitter size={20} className="cursor-pointer" />
+          </div>
+          <div className="mt-10">
+          <a
+  href="../assets/Saurabh_resume.pdf"
+  download="Saurabh_resume.pdf.pdf"
+  className="bg-[#001b5e] hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-flex items-center"
+>
+  <svg
+    class="w-4 h-4 mr-2"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+  </svg>
+  Download Resume
+</a>
+
           </div>
         </div>
       </div>
