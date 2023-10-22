@@ -9,7 +9,7 @@ import {
 } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
 import mainImg from "../assets/main.jpg";
-import resume from "../assets/Saurabh_resume.pdf";
+import resume from "../assets/saurabh_resume.pdf";
 
 const Main = () => {
   return (
