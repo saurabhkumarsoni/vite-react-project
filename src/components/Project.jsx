@@ -4,6 +4,7 @@ import propertyImg from "../assets/property.png";
 import netflixImg from "../assets/netflix.png";
 import ecomImg from "../assets/ecom.jpg";
 import insuranceImg from "../assets/insurance.webp";
+import siemImg from "../assets/siem.jpg"
 
 
 const Project = () => {
@@ -20,7 +21,7 @@ const Project = () => {
         voluptate necessitatibus ex perferendis, eveniet tempora!
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={propertyImg} title="Crypto App"/>
+        <ProjectItem img={siemImg} title="Crypto App"/>
         <ProjectItem img={netflixImg} title="Property App"/>
         <ProjectItem img={ecomImg} title="amazon App"/>
         <ProjectItem img={insuranceImg} title="Resturant App"/>
