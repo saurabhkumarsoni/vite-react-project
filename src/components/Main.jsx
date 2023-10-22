@@ -8,11 +8,8 @@ import {
 } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
 import mainImg from "../assets/main.jpg";
+import resume from "../assets/saurabh_resume.pdf";
 
-const DownloadPDFButton = () => {
-  const pdfUrl = "../assets/saurabh_resume.pdf";
-  window.open(pdfUrl, "_blank");
-};
 const Main = () => {
   return (
     <div id="main">
@@ -78,7 +75,8 @@ const Main = () => {
           </div>
           <div className="mt-10">
             <a
-              onClick={DownloadPDFButton}
+              href={resume}
+              target="_blank"
               download="Saurabh_resume.pdf"
               className="bg-[#001b5e] hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-flex items-center"
             >
