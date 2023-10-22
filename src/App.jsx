@@ -6,6 +6,7 @@ import Main from "./components/Main";
 import Work from "./components/Work";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import AboutMe from "./components/AboutMe";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   <>
     <SideNav/>
     <Main/>
+    <AboutMe/>
     <Work/>
     <Project/>
     <Contact/>
