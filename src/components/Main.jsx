@@ -5,6 +5,7 @@ import {
   BsLinkedin,
   BsTwitter,
   BsGithub,
+  BsDownload,
 } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
 import mainImg from "../assets/main.jpg";
@@ -80,18 +81,7 @@ const Main = () => {
               download="Saurabh_resume.pdf"
               className="bg-[#001b5e] hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-flex items-center"
             >
-              <svg
-                className="w-4 h-4 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-              </svg>
+            <BsDownload  className="w-4 h-4 mr-2"/>
               Download Resume
             </a>
           </div>
